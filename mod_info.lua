@@ -1,0 +1,9 @@
+name = "Moving on up 0.1"
+version = 1
+copyright = "TakesTheBiscuit"
+author = "TakesTheBiscuit"
+description = "M People Vibes. FAF only."
+url = "https://github.com/TakesTheBiscuit/faf_movingOnUP"
+uid = "ae7a2946-8bcc-11ea-bc55-0242ac130003"
+exclusive = false
+ui_only = false
