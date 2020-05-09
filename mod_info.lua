@@ -1,5 +1,5 @@
-name = "Moving on up 0.1"
-version = 1
+name = "Moving on up 2"
+version = 2
 copyright = "TakesTheBiscuit"
 author = "TakesTheBiscuit"
 description = "M People Vibes. FAF only."
