@@ -11,12 +11,16 @@ do
         oldReceiveChat(sender, msg)
 
         local bants = {
-            'Jus who do you think you are?', 'Take it like a man baby',
-            'Movin on up', 'Time to break free',
+            'Jus who do you think you are?',
+            'Take it like a man baby',
+            'Movin on up',
+            'Time to break free',
             'They brag a man has walked in space',
             'Movin on up, movin on up, movin on up'
         }
-        local bantsClips = {'up1', 'up2', 'up1', 'up2', 'up1', 'up2'}
+        -- Choose one of these at random
+        -- they do not map text to sound because no one cares
+        local bantsClips = {'up1', 'up2', 'up2', 'up3-goneTooFar', 'up4-upupup', 'up3-goneTooFar' }
 
         local rng = Random(1, 6)
 
