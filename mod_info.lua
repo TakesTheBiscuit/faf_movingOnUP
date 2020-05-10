@@ -1,10 +1,10 @@
-name = "Moving on up 2"
-version = 2
+name = "Moving on up 3"
+version = 3
 copyright = "Biscotti"
 author = "Biscotti"
 description = "M People Vibes. FAF only."
 url = "https://github.com/TakesTheBiscuit/faf_movingOnUP"
-uid = "ae7a2946-8bcc-11ea-bc55-0242ac130003"
+uid = "ae7a2946-8bcc-11ea-bc55-0242ac130009"
 icon = "/mods/faf_movingOnUP/icon.png"
 exclusive = false
 ui_only = false
