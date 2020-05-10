@@ -1,3 +1,5 @@
+RMDIR /S /Q %~dp0dist
+mkdir dist
 robocopy hook /dist/hook /s /e
 robocopy lib /dist/lib /s /e
 robocopy sounds /dist/sounds /s /e
