@@ -1,0 +1,7 @@
+
+dist/hook/lua/ui/game/*
+dist/lib/*
+dist/sounds/*
+dist/icon.png
+dist/mod_info.lua
+dist/README.md
