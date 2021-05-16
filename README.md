@@ -12,12 +12,16 @@ No gameplay changes - just visual/audio delights.
 
 ### Building
 cd tools
-.build.bat
+.\build.bat
 
 Should now have a /dist directory in the root folder
 
 ### Deploying to user mods directory during dev
 cd tools
-.deploy.bat
+.\deploy.bat
 
 Should copy files to your games directory; may need modifying on your machine.
+
+### Uploading to FAF
+
+Build, then take /dist/..zip and upload to FAF client/server

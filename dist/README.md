@@ -21,3 +21,7 @@ cd tools
 .deploy.bat
 
 Should copy files to your games directory; may need modifying on your machine.
+
+### Uploading to FAF
+
+Build, then take /dist/..zip and upload to FAF client/server
