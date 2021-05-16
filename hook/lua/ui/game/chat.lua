@@ -11,30 +11,22 @@ do
         oldReceiveChat(sender, msg)
 
         local bants = {
-            'Jus who do you think you are?', 'Take it like a man baby',
-            'Movin on up', 'Time to break free',
+            'Jus who do you think you are?',
+            'Take it like a man baby',
+            'Movin on up',
+            'Time to break free',
             'They brag a man has walked in space',
             'Movin on up, movin on up, movin on up'
         }
-        local bantsClips = {'up1', 'up2', 'up1', 'up2', 'up1', 'up2'}
+        -- Choose one of these at random
+        -- they do not map text to sound because no one cares
+        local bantsClips = {'up1', 'up2', 'up2', 'up3-goneTooFar', 'up4-upupup', 'up3-goneTooFar' }
 
         local rng = Random(1, 6)
 
         if msg.text == 'Starting T2' or msg.text == 'Starting T3' then
             print(bants[rng])
             PlaySound(Sound({Bank = 'upSoundBank', Cue = bantsClips[rng]}))
-
-            LOG('Moving on up: Chatting to alll to say moving on up')
-
-            SessionSendChatMessage({
-                to = 'allies',
-                Chat = true,
-                text = "MOVING ON UP"
-            })
-
-            LOG(
-                'Moving on up: Finished calling moving on up chat msg to oldreceivechat method')
-
             LOG('Moving on up: Forking thread to spam chat')
             asciiMessages.startDisplay()
         end
